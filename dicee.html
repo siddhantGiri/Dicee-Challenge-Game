@@ -5,12 +5,12 @@
     <title>Dicee</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-
   </head>
   <body>
 
     <div class="container">
-      <h1>Refresh Me</h1>
+      <!-- making the button clickable to refresh the page -->
+      <h1 onclick="refreshPage()">Refresh Me</h1>
 
       <div class="dice">
         <p>Player 1</p>
@@ -24,10 +24,17 @@
 
     </div>
 
+    <!-- JavaScript to handle the click event -->
+    <script>
+      function refreshPage() {
+        // reload the page
+        window.location.reload();
+      }
+    </script>
 
   </body>
 
   <footer>
-  
+   Learning with www 🎲 App Brewery 🎲 com
   </footer>
 </html>
