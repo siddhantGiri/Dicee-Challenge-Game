@@ -39,3 +39,6 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+h1 {
+  cursor: pointer;
+}
