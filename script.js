@@ -21,5 +21,5 @@ else if(randomNumber2 > randomNumber1){
     document.querySelector("h1").innerHTML = "Player 2 Wins!"; 
 }
 else{
-    document.querySelector("h1").innerHTML = "Draw!";
+    document.querySelector("h1").innerHTML = "Draw! Try again";
 }
